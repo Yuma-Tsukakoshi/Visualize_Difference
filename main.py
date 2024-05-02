@@ -31,5 +31,6 @@ for contour in contours:
 
 # Display the output image with differences highlighted
 cv2.imshow('Output', img1)
+cv2.imwrite('output.png', img1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
